@@ -1,0 +1,184 @@
+.body{
+    overflow-x: hidden;
+
+        margin: 0;
+        padding: 0;
+    }
+  
+  /* Loader Styles */
+        #loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+        }
+        /* Hide loader after loading */
+        .hidden {
+            display: none;
+        } .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        .loading svg {
+            overflow: visible;
+        }
+
+        .loading svg polyline {
+            fill: none;
+            stroke-width: 3;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        .loading svg polyline#back {
+            stroke: #ff4d5033;
+        }
+
+        .loading svg polyline#front {
+            stroke: #ff4d4f;
+            stroke-dasharray: 48, 144;
+            stroke-dashoffset: 192;
+            animation: dash_682 1.4s linear infinite;
+        }
+
+        @keyframes dash_682 {
+            72.5% {
+                opacity: 0;
+            }
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        /* Hide content initially */
+        #content {
+            display: none;
+        }
+.oyin{
+    margin-top: 80px;
+    font-family: "Trirong", serif; 
+    font-size: 25px;
+}
+.hi{
+    background-color: rgba(0, 0, 255, 0.534);
+    width: 100%;
+    height: 170px;
+    padding-top: 39px;
+   margin-top: ;
+   font-family: "Trirong", serif; 
+   font-size: 18px;
+   color: white;
+}
+.hii{
+    background-color: rgba(0, 0, 255, 0.534);
+    width: 100%;
+    height: 170px;
+    padding-top: 39px;
+   margin-top: 60px;
+   font-family: "Trirong", serif; 
+   font-size: 18px;
+   color: white;
+}
+.hello{
+    width: 100%;
+    height: 220px;
+    padding-top: 30px;
+    background-color: black;
+    font-family: "Trirong", serif; 
+    font-size: 18px;
+    color: white;
+}
+.pic{
+  width: 100%;
+  
+  height: 1005;
+ 
+}
+.femi{
+    text-align: center;
+    color: white;
+    font-family: "Trirong", serif; 
+    font-size: 23px;
+    padding-top: 14%;
+}
+.lime{
+    font-family: "Trirong", serif; 
+   font-size: 18px;
+   position: absolute;
+   
+   text-align: center;
+}
+.no{
+    color: white;
+}
+.holy{
+    width: 100%;
+   height: 400px;
+    background-color:rgba(0, 0, 255, 0.363);
+}
+.you{
+    font-family: "Trirong", serif; 
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+   
+}
+.prayer{
+    font-family: "Trirong", serif; 
+    font-size: 43px;
+    color: white;
+    text-align: center;
+    
+}
+.to{
+    margin-top: 20px;
+    background-color: rgba(0, 0, 255, 0.589);
+    width: 100%;
+    height: 340px;
+}
+.go{
+text-align: center;
+padding-top: 50px;
+font-family: "Trirong", serif;
+color: white;
+}
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: none;
+    font-family: "Trirong", serif; 
+}
+.yo{
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.navbar {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    background-color: blue; 
+    color: white;
+    padding-top: 15px;border: none;
+   font-family: Trirong serif; font-size: 19px;
+   text-emphasis-color: white;
+}
